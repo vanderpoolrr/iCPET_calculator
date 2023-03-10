@@ -5,7 +5,7 @@ A web-based version of the iCPET calculator is available at [https://vanderpoolr
 
 ## Overview
 The RShiny app for multi-point pressure flow analysis operates in a top down fashion. 
-![](RShiny iCPET calculator.png)
+![](RShiny%20iCPET%20calculator.png)
 ### Step 1
 The user will enter information about the study, the date of the measurements, when the analysis was completed and who complted the analysis. 
 ### Step 2
