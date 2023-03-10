@@ -21,9 +21,7 @@ In the final step, the user then has the option to download the data and analysi
 1. Linehan JH, Haworth ST, Nelin LD, Krenz GS, Dawson CA. A simple distensible vessel model for interpreting pulmonary vascular pressure-flow curves. J Appl Physiol. 1992 Sep;73(3):987–94. 
 
 ## iCPET R Shiny App
-This app requires the following R packages: `shiny, tidyverse, ggpubr, cowplot, viridis, openxlsx`. 
-
-The app has been tested on: 
+The RShiny app can be downloaded from this repository and run locally with the `app.R` file and RStudio. This App requires the following R packages: `shiny, tidyverse, ggpubr, cowplot, viridis, openxlsx` and has been tested on: 
 ```
 R version 4.2.2 (2022-10-31 ucrt) 
 Platform: x86_64-w64-mingw32/x64 (64-bit) 
