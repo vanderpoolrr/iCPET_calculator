@@ -18,7 +18,8 @@ In the final step, the user then has the option to download the data and analysi
 ![Example Excel Output from the iCPET Calculator](Example%20Excel%20Output.PNG)
 
 ## Citation
-1. Linehan JH, Haworth ST, Nelin LD, Krenz GS, Dawson CA. A simple distensible vessel model for interpreting pulmonary vascular pressure-flow curves. J Appl Physiol. 1992 Sep;73(3):987–94. 
+1. Linehan JH, Haworth ST, Nelin LD, Krenz GS, Dawson CA. A simple distensible vessel model for interpreting pulmonary vascular pressure-flow curves. J Appl Physiol. 1992 Sep;73(3):987–94.
+2. Jordan Elliott, Nainika Menakuru, Kellan Juliet Martin, Farbod Nicholas Rahaghi, Franz P. Rischard, Rebecca R. Vanderpool. iCPET calculator: a web-based application to standardize the calculation of alpha distensibility in patients with pulmonary arterial hypertension. medRxiv 2023.02.21.23286277; doi: https://doi.org/10.1101/2023.02.21.23286277
 
 ## iCPET R Shiny App
 The RShiny app can be downloaded from this repository and run locally with the [`app.R`](https://github.com/vanderpoolrr/iCPET_calculator/blob/main/app.R) file and RStudio. This App requires the following R packages: `shiny, tidyverse, ggpubr, cowplot, viridis, openxlsx` and has been tested on: 
