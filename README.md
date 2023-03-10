@@ -1,15 +1,21 @@
 # iCPET_calculator: a web-based application to standardize the calculation of alpha distensibility
 This is an R Shiny app to calculate alpha distensibility (1) from multi-beat pressure flow curves. Mean pulmonary artery pressure (mPAP), Pulmonary artery wedge pressure (PAWP) and cardiac output (CO) are typcially measured during a right heart catheterization.  
 
-A web-based version of the iCPET calculator is available [here](https://vanderpoolrr.shinyapps.io/iCPET_calculator/). This link may not always be active. Alternatively, download the App.R file and run in RStudio locally. 
+A web-based version of the iCPET calculator is available at [https://vanderpoolrr.shinyapps.io/iCPET_calculator/](https://vanderpoolrr.shinyapps.io/iCPET_calculator/). This link may not always be active. Alternatively, download the App.R file and run in RStudio locally. 
 
 ## Overview
+The RShiny app for multi-point pressure flow analysis operates in a top down fashion. 
+![](RShiny iCPET calculator.png)
+### Step 1
+The user will enter information about the study, the date of the measurements, when the analysis was completed and who complted the analysis. 
+### Step 2
+The user will then select the number of stages that were measured. This will resize the table based on the number of stages selected in by the slider. The user will then enter the Workload (W), Right Atrial Pressure (RAP), mean PA pressure (mPAP), PA wedge pressure (PW) and Cardiac Output (CO) for each stage. The checkboxes on the right are then used to select which exercise stages should be included in the calculations. 
+### Step 3
+The user then has the ability to verify the data that was entered into the table and see the pressure-flow results for mPAP/Q, PW/Q and RA/Q relationships in the generated figure. 
 
-
-## Example Excel Output
-
-
-
+### Step 4 
+In the final step, the user then has the option to download the data and analysis results as a Plot, stand-alone table or an Excel File. The 'Downloaded Excel' file includes the analysis data and the generated figure including alpha distensibility, slope, intercepts and R squared values for the fitted relationships. 
+![](Example%20Excel%20Output.PNG)
 
 ## Citation
 1. Linehan JH, Haworth ST, Nelin LD, Krenz GS, Dawson CA. A simple distensible vessel model for interpreting pulmonary vascular pressure-flow curves. J Appl Physiol. 1992 Sep;73(3):987–94. 
