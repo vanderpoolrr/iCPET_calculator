@@ -1,4 +1,4 @@
-# iCPET_calculator: a web-based application to standardize the calculation of alpha distensibility
+# _iCPET calculator_: a web-based application to standardize the calculation of alpha distensibility
 This is an R Shiny app to calculate alpha distensibility (1) from multi-beat pressure flow curves. Mean pulmonary artery pressure (mPAP), Pulmonary artery wedge pressure (PAWP) and cardiac output (CO) are typcially measured during a right heart catheterization.  
 
 A web-based version of the iCPET calculator is available at [https://vanderpoolrr.shinyapps.io/iCPET_calculator/](https://vanderpoolrr.shinyapps.io/iCPET_calculator/). This link may not always be active. Alternatively, download the App.R file and run in RStudio locally. 
