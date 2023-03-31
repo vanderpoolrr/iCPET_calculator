@@ -3,6 +3,8 @@ This is an R Shiny app to calculate alpha distensibility (1) from multi-beat pre
 
 A web-based version of the iCPET calculator is available at [https://vanderpoolrr.shinyapps.io/iCPET_calculator/](https://vanderpoolrr.shinyapps.io/iCPET_calculator/). This link may not always be active. Alternatively, download the App.R file and run in RStudio locally. 
 
+[![DOI](https://zenodo.org/badge/611925472.svg)](https://zenodo.org/badge/latestdoi/611925472)
+
 ## Overview
 The RShiny app for multi-point pressure flow analysis operates in a top down fashion. 
 ![iCPET calculator analysis steps](iCPET%20calculator.png)
